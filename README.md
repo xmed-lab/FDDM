@@ -27,7 +27,7 @@ This is the pytorch implementation for the paper "[Fundus-Enhanced Disease-Aware
       │   └── Images/
       │       ├── fundus-images/
       │       └── oct-images/
-      ├── dev/
+      ├── val/
       │   ├── cfp.txt
       │   └── oct.txt
       └── test/
