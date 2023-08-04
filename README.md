@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the pytorch implementation for the paper "[Fundus-Enhanced Disease-Aware Distillation Model for Retinal Disease Classification from OCT Images]()"
+This is the pytorch implementation for the paper "[Fundus-Enhanced Disease-Aware Distillation Model for Retinal Disease Classification from OCT Images](https://arxiv.org/abs/2308.00291)"
 
 ![image-20230619155720859](figure/framework.png)
 
