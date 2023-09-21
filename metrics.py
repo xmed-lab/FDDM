@@ -21,12 +21,12 @@ def multilabel_confusion_matrix(expects, predicts):
 
 
 def spe_score(confusion_matrix):
-    if confusion_matrix[0][0] == 0 and confusion_matrix[1][0] == 0:
+    if confusion_matrix[0][0] == 0 and confusion_matrix[0][1] == 0:
         return 0.0
-    return float(confusion_matrix[0][0]) / float(confusion_matrix[1][0] + confusion_matrix[0][0])
+    return float(confusion_matrix[0][0]) / float(confusion_matrix[0][1] + confusion_matrix[0][0])
 
 
 def sen_score(confusion_matrix):
-    if confusion_matrix[0][1] == 0 and confusion_matrix[1][1] == 0:
+    if confusion_matrix[1][0] == 0 and confusion_matrix[1][1] == 0:
         return 0.0
-    return float(confusion_matrix[1][1]) / float(confusion_matrix[1][1] + confusion_matrix[0][1])
+    return float(confusion_matrix[1][1]) / float(confusion_matrix[1][1] + confusion_matrix[1][0])
