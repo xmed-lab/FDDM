@@ -78,4 +78,18 @@ This is the pytorch implementation for the paper "[Fundus-Enhanced Disease-Aware
    ```
 
 ## Citation
+If this code is helpful for your study, please cite:
+```
+@inproceedings{wang2023fundus,
+  title={Fundus-Enhanced Disease-Aware Distillation Model for Retinal Disease Classification from OCT Images},
+  author={Wang, Lehan and Dai, Weihang and Jin, Mei and Ou, Chubin and Li, Xiaomeng},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={639--648},
+  year={2023},
+  organization={Springer}
+}
+```
 
+## Contact
+Lehan Wang (lwangdk@connect.ust.hk)
+Xiaomeng Li (eexmli@ust.hk)
