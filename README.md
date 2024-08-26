@@ -10,7 +10,7 @@ This is the pytorch implementation for the paper "[Fundus-Enhanced Disease-Aware
 
 - Dataset
 
-  We collect a new dataset TOPCON-MM with fundus and OCT images in xx hospital using a Topcon Triton swept-source OCT featuring multimodal fundus imaging. We have separated our in-house dataset  at the patient level, maintained a training-to-test set ratio of approximately 8:2. We are dedicated to making our data publicly available.
+  We collect a new dataset TOPCON-MM with fundus and OCT images in Guangdong Provincial Hospital of Integrated Traditional Chinese and Western Medicine using a Topcon Triton swept-source OCT featuring multimodal fundus imaging. We have separated our in-house dataset  at the patient level, maintained a training-to-test set ratio of approximately 8:2. We are dedicated to making our data publicly available.
 
 - Data Preprocessing
 
