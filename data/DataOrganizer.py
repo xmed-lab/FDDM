@@ -58,14 +58,14 @@ class DataOrganizer:
     @staticmethod
     def get_fundus_data(collection, image_path, aug_params=None, transform=None, if_test=False, cls_num=4, if_eval=False):
         path_file_f = os.path.join(collection, "cfp.txt")
-        imgs_f_path_list, labels_f_list = load_pathfile(image_path, "cfp-448x448", path_file_f, "cfp")
+        imgs_f_path_list, labels_f_list = load_pathfile(image_path, "fundus-images", path_file_f, "cfp")
 
         return SingleDataset(imgs_f_path_list, labels_f_list, aug_params, transform, if_test, cls_num)
 
     @staticmethod
     def get_oct_data(collection, image_path, aug_params=None, transform=None, if_test=False, cls_num=4, if_eval=False):
         path_file = os.path.join(collection, "oct.txt")
-        imgs_path_list, labels_list = load_pathfile(image_path, "oct-median3x3-448x448", path_file, "oct")
+        imgs_path_list, labels_list = load_pathfile(image_path, "oct-images", path_file, "oct")
         return SingleDataset(imgs_path_list, labels_list, aug_params, transform, if_test, cls_num)
 
     @staticmethod
